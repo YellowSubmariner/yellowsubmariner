@@ -113,6 +113,64 @@
       "source": "Original image generated for this website with OpenAI image_gen",
       "description": "Original anime landscape inspired by the Kamakura coast and Enoshima",
       "changes": "Converted losslessly in composition to WebP for web delivery."
+    },
+    {
+      "filename": "makeine-anna.webp",
+      "character": "八奈见杏菜 / 八奈見杏菜",
+      "source_page": "https://recommend.jr-central.co.jp/oshi-tabi/makeine3rd/",
+      "image_url": "https://recommend.jr-central.co.jp/oshi-tabi/makeine3rd/img/mv_chara02_pc.png",
+      "source": "JR东海官方「推し旅」×《败犬女主太多了！》联动公开页面",
+      "width": 520,
+      "height": 1100,
+      "transparent": true,
+      "license": "Copyrighted official collaboration character artwork; no open-content license asserted",
+      "attribution": "©雨森たきび／小学館／マケイン応援委員会",
+      "description": "Official JR Central railway-uniform collaboration illustration.",
+      "changes": "Lossless WebP encoding. Original dimensions preserved; no upscaling or retouching."
+    },
+    {
+      "filename": "makeine-lemon.webp",
+      "character": "烧盐柠檬 / 焼塩檸檬",
+      "source_page": "https://recommend.jr-central.co.jp/oshi-tabi/makeine3rd/",
+      "image_url": "https://recommend.jr-central.co.jp/oshi-tabi/makeine3rd/img/mv_chara03_pc.png",
+      "source": "JR东海官方「推し旅」×《败犬女主太多了！》联动公开页面",
+      "width": 620,
+      "height": 1220,
+      "transparent": true,
+      "license": "Copyrighted official collaboration character artwork; no open-content license asserted",
+      "attribution": "©雨森たきび／小学館／マケイン応援委員会",
+      "description": "Official JR Central railway-uniform collaboration illustration.",
+      "changes": "Lossless WebP encoding. Original dimensions preserved; no upscaling or retouching."
+    },
+    {
+      "filename": "makeine-chika.webp",
+      "character": "小鞠知花",
+      "source_page": "https://recommend.jr-central.co.jp/oshi-tabi/makeine3rd/",
+      "image_url": "https://recommend.jr-central.co.jp/oshi-tabi/makeine3rd/img/mv_chara04_pc.png",
+      "source": "JR东海官方「推し旅」×《败犬女主太多了！》联动公开页面",
+      "width": 340,
+      "height": 1000,
+      "transparent": true,
+      "license": "Copyrighted official collaboration character artwork; no open-content license asserted",
+      "attribution": "©雨森たきび／小学館／マケイン応援委員会",
+      "description": "Official JR Central railway-uniform collaboration illustration.",
+      "changes": "Lossless WebP encoding. Original dimensions preserved; no upscaling or retouching."
+    },
+    {
+      "filename": "yukino-yukinoshita-hd.webp",
+      "character": "雪之下雪乃 / 雪ノ下雪乃",
+      "source_page": "https://www.zerochan.net/2895747",
+      "image_url": "https://static.zerochan.net/Yukinoshita.Yukino.full.2895747.png",
+      "source": "Public Zerochan image mirror; not a direct official download.",
+      "attribution": "雪之下雪乃，《我的青春恋爱物语果然有问题》。版权归各自权利方。",
+      "license": "Copyrighted character artwork; no open-content license asserted",
+      "original_width": 700,
+      "original_height": 1940,
+      "original_character_height": 1868,
+      "width": 458,
+      "height": 1884,
+      "transparent": true,
+      "changes": "Removed empty transparent canvas margins with an eight-pixel safety border, lossless WebP encoding. No upscaling or retouching."
     }
   ]
 }

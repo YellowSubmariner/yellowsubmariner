@@ -1,6 +1,6 @@
 # YellowSubmaine · GitHub Pages 前台
 
-这个目录只包含公开网站的静态页面、样式、ACG 图片和公开内容阅读组件。GitHub 账号为 `YellowSubmariner`，仓库为 `yellowsubmaine`；发布成功后的公开地址为 https://yellowsubmariner.github.io/yellowsubmaine/ ，访客无需 ChatGPT 账号。
+这个目录只包含公开网站的静态页面、样式、ACG 图片和公开内容阅读组件。GitHub 账号为 `YellowSubmariner`，仓库为 `yellowsubmariner`；发布成功后的公开地址为 https://yellowsubmariner.github.io/yellowsubmariner/ ，访客无需 ChatGPT 账号。
 
 文章和照片继续由原有 CMS 维护：
 
@@ -11,17 +11,17 @@
 
 ## 发布
 
-将本目录作为 `YellowSubmariner/yellowsubmaine` 仓库的根目录。GitHub Free 账号需使用公开仓库；GitHub Pro 等支持的账号可以使用私有仓库发布公开网站。在仓库的 Settings → Pages 中，把 Source 设为 GitHub Actions。推送到 `main` 或手动运行工作流，即可发布。
+将本目录作为 `YellowSubmariner/yellowsubmariner` 仓库的根目录。GitHub Free 账号需使用公开仓库；GitHub Pro 等支持的账号可以使用私有仓库发布公开网站。在仓库的 Settings → Pages 中，把 Source 设为 GitHub Actions。推送到 `main` 或手动运行工作流，即可发布。
 
 仓库名为 `用户名.github.io` 时，地址为 `https://用户名.github.io/`；普通仓库地址为 `https://用户名.github.io/仓库名/`。所有静态资源使用相对路径，两种形式都适用。不要给仓库添加账号密码、环境文件、私有照片、CMS 数据库或其他非公开文件。
 
-文章分享链接保留当前 GitHub Pages 地址，例如 `https://yellowsubmariner.github.io/yellowsubmaine/?article=文章编号`。页脚「船舱管理」跳转原有 CMS 后台：https://yellowsubmaine-journal.satinymorel.chatgpt.site/admin 。
+文章分享链接保留当前 GitHub Pages 地址，例如 `https://yellowsubmariner.github.io/yellowsubmariner/?article=文章编号`。页脚「船舱管理」跳转原有 CMS 后台：https://yellowsubmaine-journal.satinymorel.chatgpt.site/admin 。
 
 ## 内容连接
 
 `cms/front.js` 固定读取现有 CMS 的公开 `/api/posts`、文章详情和 `/api/photos`；请求不携带登录凭证，图片仅接受该 CMS 来源下的 `/media/编号`。正文使用随网站分发的 DOMPurify 清理。没有外部 CDN 依赖。
 
-CMS 服务端必须允许精确来源 `https://yellowsubmariner.github.io` 读取上述公开 API，且只开放相应 GET 请求；管理接口与写入接口不开放跨域访问。CORS 来源不包含仓库路径 `/yellowsubmaine/`。图片按普通跨域图片加载，无需给媒体增加 CORS。首次上线或 GitHub 用户名变化时，应核对 CMS 的公开来源配置。请使用 HTTP 本地预览查看页面；直接打开文件无法代表正式跨域运行环境。
+CMS 服务端必须允许精确来源 `https://yellowsubmariner.github.io` 读取上述公开 API，且只开放相应 GET 请求；管理接口与写入接口不开放跨域访问。CORS 来源不包含仓库路径 `/yellowsubmariner/`。图片按普通跨域图片加载，无需给媒体增加 CORS。首次上线或 GitHub 用户名变化时，应核对 CMS 的公开来源配置。请使用 HTTP 本地预览查看页面；直接打开文件无法代表正式跨域运行环境。
 
 本目录不会自动导入开篇文章。已有五篇文章保留在原有 CMS 数据库；前台只显示实际公开内容，空栏目正常显示待更新状态。
 

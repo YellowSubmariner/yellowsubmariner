@@ -5,11 +5,11 @@
   const CMS_ORIGIN = 'https://yellowsubmaine-journal.satinymorel.chatgpt.site';
 
   const categories = {
-    life: {label: '生活', english: 'LIFE', note: '日常里的微光，值得一页一页收藏。'},
-    journey: {label: '旅程', english: 'JOURNEY', note: '走过的地方，和还想抵达的远方。'},
-    reading: {label: '阅读', english: 'READING', note: '读过的故事，留下自己的那一句。'},
-    research: {label: '科研', english: 'RESEARCH', note: '让每一个问题，都留下探索的痕迹。'},
-    learning: {label: '学习', english: 'LEARNING', note: '把一点点理解，连成自己的知识地图。'}
+    life: {label: '生活', english: 'LIFE', note: '日常、照片与随手记录。'},
+    journey: {label: '旅程', english: 'JOURNEY', note: '路线、照片与旅行记录。'},
+    reading: {label: '阅读', english: 'READING', note: '书摘、书评与阅读笔记。'},
+    research: {label: '科研', english: 'RESEARCH', note: '论文阅读、项目与实验记录。'},
+    learning: {label: '学习', english: 'LEARNING', note: '课程笔记、代码与复习整理。'}
   };
   const $ = selector => document.querySelector(selector);
   const grid = $('.post-grid');
@@ -37,7 +37,7 @@
 
   function dateText(value) {
     const date = new Date(value);
-    if (!value || !Number.isFinite(date.getTime())) return '日期待补';
+    if (!value || !Number.isFinite(date.getTime())) return '日期未填写';
     return new Intl.DateTimeFormat('zh-CN', {timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit'}).format(date).replaceAll('/', '.');
   }
 
@@ -63,10 +63,10 @@
     let response;
     try {
       response = await fetch(url.href, {mode: 'cors', credentials: 'omit', redirect: 'error', referrerPolicy: 'no-referrer', headers: {Accept: 'application/json'}, cache: 'no-store'});
-    } catch { throw new Error('暂时连接不上文章库，请稍后重试。'); }
+    } catch { throw new Error('文章库连接失败，请重试。'); }
     let data;
-    try { data = await response.json(); } catch { throw new Error('服务暂时没有回应，请稍后重试。'); }
-    if (!response.ok || !data.ok) throw new Error(data.error?.message || '暂时无法读取内容，请稍后重试。');
+    try { data = await response.json(); } catch { throw new Error('服务响应异常，请重试。'); }
+    if (!response.ok || !data.ok) throw new Error(data.error?.message || '内容加载失败，请重试。');
     return data;
   }
 
@@ -82,7 +82,7 @@
     const box = element('div', 'cms-empty');
     box.append(element('span', 'cms-empty-mark', '↳'), element('h3', '', title), element('p', '', text));
     if (retry) {
-      const button = element('button', 'text-button cms-retry', '重新连接 ↗');
+      const button = element('button', 'text-button cms-retry', '重试 ↗');
       button.type = 'button';
       button.addEventListener('click', retry);
       box.append(button);
@@ -116,7 +116,7 @@
     const meta = element('div', 'post-meta', `${category.label}手记`);
     meta.append(element('span', 'meta-right', dateText(item.published_at || item.created_at)));
     const bottom = element('div', 'post-bottom');
-    bottom.append(element('span', '', category.english), element('span', '', 'READ STORY ↗'));
+    bottom.append(element('span', '', category.english), element('span', '', 'READ ARTICLE ↗'));
     copy.append(meta, element('h3', '', item.title), element('p', '', item.excerpt || category.note), bottom);
     button.append(art, copy);
     card.append(button);
@@ -156,14 +156,14 @@
     grid.replaceChildren();
     if (!state.items.length) {
       const categoryName = categories[state.category]?.label;
-      grid.append(emptyState(categoryName ? `这一页${categoryName}，还等着落笔。` : '新的一页，正等着落笔。', '暂时没有公开的手记。故事会在下一次更新时，慢慢浮出水面。'));
+      grid.append(emptyState(categoryName ? `暂无公开${categoryName}文章` : '暂无公开文章', '后续更新。'));
     } else state.items.forEach((item, index) => grid.append(createCard(item, index === 0 && state.category === 'all')));
     feedControls.hidden = false;
-    feedStatus.textContent = state.items.length ? `已展开 ${state.items.length} / ${state.total} 篇手记` : '故事待续 / TO BE CONTINUED';
+    feedStatus.textContent = state.items.length ? `已显示 ${state.items.length} / ${state.total} 篇文章` : '0 篇文章';
     moreButton.hidden = !state.hasMore;
     moreButton.disabled = false;
-    moreButton.textContent = '再翻几页 ↓';
-    $('.editorial-note').textContent = '这一册随日常更新。公开的文字与照片，会一直留在这里。';
+    moreButton.textContent = '加载更多 ↓';
+    $('.editorial-note').textContent = '显示已公开发布的文章。';
     $('.random-page').disabled = state.items.length === 0;
     updateCounts();
   }
@@ -173,9 +173,9 @@
     const version = ++state.version;
     state.loading = true;
     grid.setAttribute('aria-busy', 'true');
-    if (append) { moreButton.disabled = true; moreButton.textContent = '正在翻页…'; }
+    if (append) { moreButton.disabled = true; moreButton.textContent = '正在加载…'; }
     else {
-      grid.replaceChildren(emptyState('正在翻开手记…', '让这一页的故事，慢慢靠岸。'));
+      grid.replaceChildren(emptyState('正在加载文章…', '请稍等。'));
       feedControls.hidden = true;
     }
     try {
@@ -192,15 +192,15 @@
       if (state.initialized) {
         renderFeed();
         if (previousInitialized !== true) loadCategorySections();
-        $('.reading-intro [data-article="reading"]').firstChild.textContent = '翻开阅读手记 ';
+        $('.reading-intro [data-article="reading"]').firstChild.textContent = '查看阅读文章 ';
       } else {
         showDemos();
         document.querySelectorAll('.cms-category-notes').forEach(panel => { panel.hidden = true; });
       }
     } catch (error) {
       if (version !== state.version) return;
-      if (!append) grid.replaceChildren(emptyState('手记暂时没有靠岸。', error.message, () => loadFeed()));
-      else { feedStatus.textContent = error.message; moreButton.disabled = false; moreButton.textContent = '重试翻页 ↻'; }
+      if (!append) grid.replaceChildren(emptyState('文章加载失败', error.message, () => loadFeed()));
+      else { feedStatus.textContent = error.message; moreButton.disabled = false; moreButton.textContent = '重试 ↻'; }
     } finally {
       if (version === state.version) { state.loading = false; grid.setAttribute('aria-busy', 'false'); }
     }
@@ -210,7 +210,7 @@
   ['journey', 'reading', 'research', 'learning'].forEach(category => {
     const panel = element('div', `cms-category-notes cms-category-${category}`);
     panel.hidden = true;
-    panel.setAttribute('aria-label', `最新${categories[category].label}手记`);
+    panel.setAttribute('aria-label', `最新${categories[category].label}文章`);
     $(`#${category}`).append(panel);
     categoryPanels.set(category, panel);
   });
@@ -220,19 +220,19 @@
     panel.replaceChildren();
     panel.hidden = false;
     const heading = element('div', 'cms-category-heading');
-    heading.append(element('p', 'eyebrow', `${categories[category].english} / 最新手记`));
+    heading.append(element('p', 'eyebrow', `${categories[category].english} / 最新文章`));
     const browse = element('button', 'text-button', '查看全部 ↗');
     browse.type = 'button';
     browse.dataset.browseCategory = category;
     heading.append(browse);
     panel.append(heading);
     if (error) {
-      const message = element('p', 'cms-category-empty', '这些手记暂时没有连接上。');
+      const message = element('p', 'cms-category-empty', '文章加载失败。');
       const retry = element('button', 'text-button', '再试一次 ↻');
       retry.type = 'button';
       retry.addEventListener('click', () => loadCategory(category));
       panel.append(message, retry);
-    } else if (!items.length) panel.append(element('p', 'cms-category-empty', `这一册${categories[category].label}，还没有公开的手记。`));
+    } else if (!items.length) panel.append(element('p', 'cms-category-empty', `暂无公开${categories[category].label}文章。`));
     else {
       const list = element('div', 'cms-note-list');
       items.forEach((item, index) => {
@@ -320,7 +320,7 @@
 
   async function showPost(id, trigger, push = true) {
     if (typeof id !== 'string' || !/^[a-zA-Z0-9_-]{1,80}$/.test(id)) {
-      notify('这张手记链接不完整。');
+      notify('文章链接无效。');
       removeArticleURL();
       return;
     }
@@ -328,13 +328,13 @@
     activeArticle = id;
     window.YellowSubmaineReader?.setTrigger(trigger);
     clearShareTools();
-    $('#story-kicker').textContent = 'FIELD NOTE / YELLOWSUBMARINER';
-    $('#story-label').textContent = '正在翻开这一页…';
-    $('#story-title').textContent = '故事，正在靠岸。';
+    $('#story-kicker').textContent = 'ARTICLE / YELLOWSUBMARINER';
+    $('#story-label').textContent = '正在加载文章…';
+    $('#story-title').textContent = '文章加载中';
     $('#story-image').hidden = true;
     $('#story-image').style.backgroundImage = '';
     $('#story-image').replaceChildren();
-    $('#story-content').replaceChildren(element('p', '', '正在读取手记，请稍等。'));
+    $('#story-content').replaceChildren(element('p', '', '请稍等。'));
     $('#story-content').setAttribute('aria-busy', 'true');
     if (!story.open) story.showModal();
     story.scrollTop = 0;
@@ -359,25 +359,25 @@
         $('#story-image').setAttribute('aria-label', `${item.title}的封面`);
       }
       const share = element('div', 'cms-share-tools');
-      const copy = element('button', 'cms-copy-link', '分享这一页 ↗');
+      const copy = element('button', 'cms-copy-link', '复制链接 ↗');
       copy.type = 'button';
       const field = element('input', 'cms-share-url');
       field.type = 'url';
       field.readOnly = true;
       field.value = articleURL(id).href;
-      field.setAttribute('aria-label', '这篇手记的分享链接');
+      field.setAttribute('aria-label', '文章分享链接');
       field.hidden = true;
       copy.addEventListener('click', async () => {
-        try { await navigator.clipboard.writeText(field.value); notify('链接已复制，把这一页分享出去吧。'); }
-        catch { field.hidden = false; field.focus(); field.select(); notify('请复制选中的手记链接。'); }
+        try { await navigator.clipboard.writeText(field.value); notify('链接已复制。'); }
+        catch { field.hidden = false; field.focus(); field.select(); notify('请复制下方链接。'); }
       });
-      share.append(element('span', '', `${category.english} / 一页公开手记`), copy, field);
+      share.append(element('span', '', `${category.english} / PUBLIC ARTICLE`), copy, field);
       $('.story-end').before(share);
     } catch (error) {
       if (version !== articleVersion || !story.open) return;
-      $('#story-label').textContent = '这一页暂时无法打开';
-      $('#story-title').textContent = '故事暂时没有靠岸。';
-      $('#story-content').replaceChildren(emptyState('稍后再来看看。', error.message, () => showPost(id, trigger, false)));
+      $('#story-label').textContent = '无法打开文章';
+      $('#story-title').textContent = '文章暂时无法打开';
+      $('#story-content').replaceChildren(emptyState('请重试', error.message, () => showPost(id, trigger, false)));
     } finally { if (version === articleVersion) $('#story-content').setAttribute('aria-busy', 'false'); }
   }
 
@@ -405,7 +405,7 @@
       if (state.initialized !== false) {
         event.preventDefault();
         event.stopImmediatePropagation();
-        if (state.initialized === null) { notify('手记正在加载，请稍等片刻。'); return; }
+        if (state.initialized === null) { notify('文章正在加载，请稍等。'); return; }
         const category = demo.dataset.article;
         const item = state.categoryItems.get(category)?.[0] || state.items.find(item => item.category === category);
         if (item) showPost(item.id, demo);
@@ -417,7 +417,7 @@
       event.preventDefault();
       event.stopImmediatePropagation();
       if (state.items.length) showPost(state.items[Math.floor(Math.random() * state.items.length)].id, event.target.closest('button'));
-      else notify(state.loading ? '手记正在加载，请稍等片刻。' : '下一页故事，留给下一次更新。');
+      else notify(state.loading ? '文章正在加载，请稍等。' : '暂无公开文章。');
     }
   }, true);
 
@@ -441,16 +441,16 @@
   gallery.setAttribute('aria-labelledby', 'photos-heading');
   const galleryHeading = element('div', 'section-heading');
   const galleryHeadingCopy = element('div');
-  galleryHeadingCopy.append(element('p', 'eyebrow', '06 / MOMENTS IN THE LIGHT'));
-  const galleryTitle = element('h2', '', '把瞬间，留在这一格');
+  galleryHeadingCopy.append(element('p', 'eyebrow', '06 / PHOTOS'));
+  const galleryTitle = element('h2', '', '照片');
   galleryTitle.id = 'photos-heading';
   galleryTitle.append(element('span', 'heading-dot', '.'));
   galleryHeadingCopy.append(galleryTitle);
-  galleryHeading.append(galleryHeadingCopy, element('span', 'section-side-note', '不只文字，也有光落下来的样子。'));
+  galleryHeading.append(galleryHeadingCopy, element('span', 'section-side-note', '生活与旅途的照片。'));
   const photoFilters = element('div', 'cms-photo-filters');
   photoFilters.setAttribute('role', 'group');
   photoFilters.setAttribute('aria-label', '按栏目筛选照片');
-  [['all', '全部瞬间'], ...Object.entries(categories).map(([key, value]) => [key, value.label])].forEach(([key, label]) => {
+  [['all', '全部照片'], ...Object.entries(categories).map(([key, value]) => [key, value.label])].forEach(([key, label]) => {
     const button = element('button', key === 'all' ? 'active' : '', label);
     button.type = 'button';
     button.dataset.photoFilter = key;
@@ -463,7 +463,7 @@
   const photoFooter = element('div', 'cms-gallery-footer');
   const photoStatus = element('p', 'cms-feed-status');
   photoStatus.setAttribute('role', 'status');
-  const photoMore = element('button', 'cms-more-button', '再显影几张 ↓');
+  const photoMore = element('button', 'cms-more-button', '加载更多 ↓');
   photoMore.type = 'button';
   photoMore.hidden = true;
   photoMore.addEventListener('click', () => { if (!photos.loading) loadPhotos(photos.category, true); });
@@ -473,17 +473,17 @@
 
   function renderPhotos() {
     photoGrid.replaceChildren();
-    if (!photos.items.length) photoGrid.append(emptyState('相册还在等第一张照片。', '走过的路、停留的下午，会慢慢在这里显影。'));
+    if (!photos.items.length) photoGrid.append(emptyState('暂无公开照片', '后续更新。'));
     photos.items.forEach((item, index) => {
       const src = mediaURL(item.url);
       if (!src) return;
       const figure = element('figure', 'cms-photo-card');
       const button = element('button', 'cms-photo-open');
       button.type = 'button';
-      button.setAttribute('aria-label', `放大照片：${item.alt || item.caption || categories[item.category]?.label || '日常瞬间'}`);
+      button.setAttribute('aria-label', `放大照片：${item.alt || item.caption || categories[item.category]?.label || '照片'}`);
       const image = element('img');
       publicImage(image, src);
-      image.alt = item.alt || item.caption || '日常瞬间';
+      image.alt = item.alt || item.caption || '照片';
       image.loading = 'lazy';
       image.decoding = 'async';
       button.append(image, element('span', 'cms-photo-zoom', '↗'));
@@ -491,14 +491,14 @@
       const caption = element('figcaption');
       const label = element('div', 'cms-photo-label');
       label.append(element('span', '', categories[item.category]?.label || '生活'), element('small', '', String(index + 1).padStart(2, '0')));
-      caption.append(label, element('p', '', item.caption || item.alt || '一个值得留下的瞬间'));
+      caption.append(label, element('p', '', item.caption || item.alt || '照片'));
       figure.append(button, caption);
       photoGrid.append(figure);
     });
-    photoStatus.textContent = photos.items.length ? `${photos.items.length} / ${photos.total} 张公开照片 · 点击照片，放大这一刻` : 'PHOTO LOG / 待显影';
+    photoStatus.textContent = photos.items.length ? `${photos.items.length} / ${photos.total} 张照片 · 点击放大` : '0 张照片';
     photoMore.hidden = !photos.hasMore;
     photoMore.disabled = false;
-    photoMore.textContent = '再显影几张 ↓';
+    photoMore.textContent = '加载更多 ↓';
   }
 
   async function loadPhotos(category = photos.category, append = false) {
@@ -511,8 +511,8 @@
       button.classList.toggle('active', active);
       button.setAttribute('aria-pressed', String(active));
     });
-    if (append) { photoMore.disabled = true; photoMore.textContent = '正在显影…'; }
-    else { photoGrid.replaceChildren(emptyState('照片，正在显影。', '稍等片刻，把这一格日常翻开。')); photoMore.hidden = true; photoStatus.textContent = ''; }
+    if (append) { photoMore.disabled = true; photoMore.textContent = '正在加载…'; }
+    else { photoGrid.replaceChildren(emptyState('正在加载照片…', '请稍等。')); photoMore.hidden = true; photoStatus.textContent = ''; }
     try {
       const query = new URLSearchParams({limit: '12', offset: String(append ? photos.items.length : 0)});
       if (photos.category !== 'all') query.set('category', photos.category);
@@ -524,8 +524,8 @@
       renderPhotos();
     } catch (error) {
       if (version !== photos.version) return;
-      if (!append) photoGrid.replaceChildren(emptyState('照片暂时没有连接上。', error.message, () => loadPhotos()));
-      else { photoStatus.textContent = error.message; photoMore.disabled = false; photoMore.textContent = '重试显影 ↻'; }
+      if (!append) photoGrid.replaceChildren(emptyState('照片加载失败', error.message, () => loadPhotos()));
+      else { photoStatus.textContent = error.message; photoMore.disabled = false; photoMore.textContent = '重试 ↻'; }
     } finally { if (version === photos.version) { photos.loading = false; photoGrid.setAttribute('aria-busy', 'false'); } }
   }
 
@@ -561,8 +561,8 @@
     activePhotoIndex = index;
     if (trigger) lastPhotoTrigger = trigger;
     publicImage(lightboxImage, src);
-    lightboxImage.alt = item.alt || item.caption || '日常瞬间';
-    lightboxCaption.textContent = item.caption || item.alt || '一个值得留下的瞬间';
+    lightboxImage.alt = item.alt || item.caption || '照片';
+    lightboxCaption.textContent = item.caption || item.alt || '照片';
     lightboxCount.textContent = `${categories[item.category]?.english || 'PHOTO LOG'} / ${String(index + 1).padStart(2, '0')} OF ${String(photos.items.length).padStart(2, '0')}`;
     previousPhoto.hidden = nextPhoto.hidden = photos.items.length < 2;
     if (!lightbox.open) lightbox.showModal();

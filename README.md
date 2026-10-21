@@ -27,10 +27,10 @@ CMS 服务端必须允许精确来源 `https://yellowsubmariner.github.io` 读�
 
 ## 文件说明
 
-- `index.html`、`app.js`、`styles.css`：杂志风页面、主题与原有 ACG 交互。
+- `index.html`、`app.js`、`styles.css`、`scenery.css`：风景主题页面、日夜模式、双侧人物和 ACG 交互。
 - `cms/front.js`、`cms/front.css`：公开手记、栏目筛选、分享阅读、相册和照片放大。
 - `cms/vendor/purify.js`：本地 DOMPurify。
-- `assets/`：原创封面及原有 ACG 展示素材。
+- `assets/`：原创风景插画、日本实景照片与 ACG 素材；来源及许可见 `assets/sources.json` 和页脚图片来源。
 - `.github/workflows/pages.yml`：只打包公开页面及素材的 GitHub Pages 工作流。
 - `.nojekyll`：保持静态文件原样发布。
 

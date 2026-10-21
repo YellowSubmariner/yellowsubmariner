@@ -328,7 +328,7 @@
     activeArticle = id;
     window.YellowSubmaineReader?.setTrigger(trigger);
     clearShareTools();
-    $('#story-kicker').textContent = 'FIELD NOTE / YELLOWSUBMAINE';
+    $('#story-kicker').textContent = 'FIELD NOTE / YELLOWSUBMARINER';
     $('#story-label').textContent = '正在翻开这一页…';
     $('#story-title').textContent = '故事，正在靠岸。';
     $('#story-image').hidden = true;

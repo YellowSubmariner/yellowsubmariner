@@ -1,4 +1,4 @@
-name: Publish YellowSubmaine to GitHub Pages
+name: Publish YellowSubmariner to GitHub Pages
 
 on:
   push:

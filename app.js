@@ -48,7 +48,7 @@ document.querySelectorAll('[data-filter]').forEach(button => {
 const articles = {
   life: {
     label: '生活 / 首航日 · 2026.10.21', title: '给平凡的一天，留一个特别的角落', image: 'assets/hero.png',
-    content: '<p>这是 YellowSubmaine 小站的第一页。</p><p>这里会有生活、旅程、阅读、科研和学习。它们看起来是五个栏目，其实也可以是同一天的五种打开方式：认真生活，保持好奇，给喜欢的东西留一点位置。</p><h3>先把这一页翻开</h3><p>不用等到一次盛大的旅行、一个漂亮的结果，或一段足够完整的故事，才开始记录。一个想追问的问题、一句不想忘掉的话，都可以成为开头。</p><p>这艘小艇暂时没有目的港。希望以后回头看，能从这些零零碎碎的文字里，认出一路走来的自己。</p><p>真实的日常，会在后续慢慢填进来。</p>'
+    content: '<p>这是 YellowSubmariner 小站的第一页。</p><p>这里会有生活、旅程、阅读、科研和学习。它们看起来是五个栏目，其实也可以是同一天的五种打开方式：认真生活，保持好奇，给喜欢的东西留一点位置。</p><h3>先把这一页翻开</h3><p>不用等到一次盛大的旅行、一个漂亮的结果，或一段足够完整的故事，才开始记录。一个想追问的问题、一句不想忘掉的话，都可以成为开头。</p><p>这艘小艇暂时没有目的港。希望以后回头看，能从这些零零碎碎的文字里，认出一路走来的自己。</p><p>真实的日常，会在后续慢慢填进来。</p>'
   },
   journey: {
     label: '旅程 / 灵感路线 · 尚未出发', title: '下一站，去故事发生的地方', image: 'assets/ocean.jpg',
@@ -102,7 +102,7 @@ function openArticle(id, trigger) {
   lastStoryTrigger = trigger || document.activeElement;
   document.querySelector('#story-label').textContent = article.label;
   document.querySelector('#story-title').textContent = article.title;
-  document.querySelector('#story-kicker').textContent = id === 'aobuta' || id === 'oregairu' || id === 'makeine' ? 'PRIVATE CINEMA / YELLOWSUBMAINE' : 'FIELD NOTE / YELLOWSUBMAINE';
+  document.querySelector('#story-kicker').textContent = id === 'aobuta' || id === 'oregairu' || id === 'makeine' ? 'PRIVATE CINEMA / YELLOWSUBMARINER' : 'FIELD NOTE / YELLOWSUBMARINER';
   document.querySelector('#story-content').innerHTML = article.content;
   storyImage.replaceChildren();
   storyImage.hidden = !article.image;

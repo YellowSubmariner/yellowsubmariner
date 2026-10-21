@@ -1,4 +1,4 @@
-# YellowSubmaine · GitHub Pages 前台
+# YellowSubmariner · GitHub Pages 前台
 
 这个目录只包含公开网站的静态页面、样式、ACG 图片和公开内容阅读组件。GitHub 账号为 `YellowSubmariner`，仓库为 `yellowsubmariner`；发布成功后的公开地址为 https://yellowsubmariner.github.io/yellowsubmariner/ ，访客无需 ChatGPT 账号。
 

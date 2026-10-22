@@ -172,5 +172,13 @@
       "transparent": true,
       "changes": "Removed empty transparent canvas margins with an eight-pixel safety border, lossless WebP encoding. No upscaling or retouching."
     }
-  ]
+  ],
+  "collections": {
+    "japan_scenery": {
+      "count": 18,
+      "attribution_page": "../japan-photo-credits.html",
+      "manifest": "japan-gallery/sources.json",
+      "purpose": "Licensed Japan landscape inspiration photography, not personal travel records."
+    }
+  }
 }

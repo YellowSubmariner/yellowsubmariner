@@ -1,0 +1,1011 @@
+{
+  "verified_date": "2026-10-22",
+  "purpose": "Japan landscape inspiration collection; not the website owner's own photography or a record of completed trips.",
+  "assets": [
+    {
+      "id": "furano-lavender",
+      "region": "hokkaido-summer",
+      "title": "富良野的花田",
+      "place": "北海道 · 中富良野",
+      "season": "夏季 / 富田农场",
+      "file": "140726 Farm Tomita Nakafurano Hokkaido Japan01s3.jpg",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:140726_Farm_Tomita_Nakafurano_Hokkaido_Japan01s3.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/140726_Farm_Tomita_Nakafurano_Hokkaido_Japan01s3.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/140726_Farm_Tomita_Nakafurano_Hokkaido_Japan01s3.jpg/3840px-140726_Farm_Tomita_Nakafurano_Hokkaido_Japan01s3.jpg",
+      "width": 5850,
+      "height": 3900,
+      "original_bytes": 23988175,
+      "commons_license": "CC BY 2.5",
+      "commons_license_url": "https://creativecommons.org/licenses/by/2.5",
+      "verified_date": "2026-10-22",
+      "download_width": 5850,
+      "download_height": 3900,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/furano-lavender-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 37672,
+          "sha256": "ffd48a0ab2b4dd66ac3e2b9d6c8090721211530b8e41f041872bea51d52fa9ca"
+        },
+        {
+          "file": "assets/japan-gallery/furano-lavender-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 159280,
+          "sha256": "4dcc64c33ef3fbc8990f2aa42e98a448f22c5611d0b0dc48f5ddc60e4e9d3ffc"
+        },
+        {
+          "file": "assets/japan-gallery/furano-lavender-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 531734,
+          "sha256": "19313f33bc85d59b827f2f75afe56cfa7e5c10a90e79dfbfffec938a021fd738"
+        },
+        {
+          "file": "assets/japan-gallery/furano-lavender-2400.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 1139906,
+          "sha256": "04d25f8dd1a7553819310bd7f803fe796764c01a2c1c438ecb33dfc40a927754"
+        }
+      ],
+      "src": "assets/japan-gallery/furano-lavender-960.webp",
+      "full": "assets/japan-gallery/furano-lavender-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "cape-kamui",
+      "region": "kamui",
+      "title": "走向神威岬",
+      "place": "北海道 · 积丹半岛",
+      "season": "夏季 / 海岬与步道",
+      "file": "130823 Cape Kamui Shakotan Hokkaido Japan01s3.jpg",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:130823_Cape_Kamui_Shakotan_Hokkaido_Japan01s3.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/130823_Cape_Kamui_Shakotan_Hokkaido_Japan01s3.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/130823_Cape_Kamui_Shakotan_Hokkaido_Japan01s3.jpg/3840px-130823_Cape_Kamui_Shakotan_Hokkaido_Japan01s3.jpg",
+      "width": 4740,
+      "height": 3160,
+      "original_bytes": 11462230,
+      "commons_license": "CC BY 2.5",
+      "commons_license_url": "https://creativecommons.org/licenses/by/2.5",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2560,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/cape-kamui-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 35276,
+          "sha256": "cf019f67c77a8e5ef69df31c247a6d5fcd043122b5e7d990ea2e65118044c199"
+        },
+        {
+          "file": "assets/japan-gallery/cape-kamui-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 151574,
+          "sha256": "4d9f53b5dc04272a5725b9c51ef8da4f010c809903117789314b3669c9998446"
+        },
+        {
+          "file": "assets/japan-gallery/cape-kamui-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 521264,
+          "sha256": "f1c2e76cdd2c24d3c7609f9fe2b6559e197c61ea6718ce1d54ae5098f3ce488d"
+        },
+        {
+          "file": "assets/japan-gallery/cape-kamui-2400.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 1087556,
+          "sha256": "cd3e45dffa02c549360ee0804983eb088d214cfdfd31b7ef20fd3b049e81f331"
+        }
+      ],
+      "src": "assets/japan-gallery/cape-kamui-960.webp",
+      "full": "assets/japan-gallery/cape-kamui-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "biei-snow-tree",
+      "region": "hokkaido-winter",
+      "title": "雪原上的一棵树",
+      "place": "北海道 · 美瑛",
+      "season": "冬季 / 雪原与常青树",
+      "source_page": "https://search.find47.jp/ja/i/BRyYR",
+      "original_url": "https://find47.jp/uploads/image_file/content/000/003/243/xl.jpg",
+      "width": 6000,
+      "height": 4000,
+      "author": "Charlie_or_Y-N",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "verified_date": "2026-10-22",
+      "download_width": 6000,
+      "download_height": 4000,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/biei-snow-tree-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 2410,
+          "sha256": "82c1c2691ef87b74c10b877185a468f0c01421708aa10c8b0521421f15278190"
+        },
+        {
+          "file": "assets/japan-gallery/biei-snow-tree-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 7260,
+          "sha256": "4fab041fe7bc483dd0c6069e22280b62b49969d3b6925c14e2d8f1e932e0fd5d"
+        },
+        {
+          "file": "assets/japan-gallery/biei-snow-tree-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 20514,
+          "sha256": "e1774e2c9cc032dc8f339f7110b5c0ff6eaf5ae7d46c2f5d49d0fbbb496bf7d8"
+        },
+        {
+          "file": "assets/japan-gallery/biei-snow-tree-2400.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 42642,
+          "sha256": "c748ed508daf04969d7eb1f639f08555cf2dbb34edc43baf8a99ec061861e462"
+        }
+      ],
+      "src": "assets/japan-gallery/biei-snow-tree-960.webp",
+      "full": "assets/japan-gallery/biei-snow-tree-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "hakodate-blue-hour",
+      "region": "hakodate",
+      "title": "两片海之间的灯火",
+      "place": "北海道 · 函馆山",
+      "season": "夜景 / 城市与海湾",
+      "file": "Mount-Hakodate Night-view.jpg",
+      "author": "MaedaAkihiko",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount-Hakodate_Night-view.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Mount-Hakodate_Night-view.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Mount-Hakodate_Night-view.jpg/3840px-Mount-Hakodate_Night-view.jpg",
+      "width": 4974,
+      "height": 3316,
+      "original_bytes": 10682474,
+      "commons_license": "CC BY-SA 4.0",
+      "commons_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2560,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/hakodate-blue-hour-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 27304,
+          "sha256": "1a56a19f8b1e32e0c98cecd4ccb9feffd1962e529f47854c541015d84b25858d"
+        },
+        {
+          "file": "assets/japan-gallery/hakodate-blue-hour-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 94870,
+          "sha256": "ccfcae54a8324d490f5cab0e91cf993eeff9b1d9f412bd78af3ce03031108d66"
+        },
+        {
+          "file": "assets/japan-gallery/hakodate-blue-hour-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 276178,
+          "sha256": "c3012bc4fa04bd4c608b18c558193b249d40fc1166c9c1e7d8209d181a43907c"
+        },
+        {
+          "file": "assets/japan-gallery/hakodate-blue-hour-2400.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 577146,
+          "sha256": "8e7e6f1fe09786d84cc63ddcad4711cd1688d545811c73af645cb04f04828491"
+        }
+      ],
+      "src": "assets/japan-gallery/hakodate-blue-hour-960.webp",
+      "full": "assets/japan-gallery/hakodate-blue-hour-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "arashiyama-bamboo",
+      "region": "kyoto",
+      "title": "岚山的绿",
+      "place": "京都 · 岚山",
+      "season": "竹林 / 光与树影",
+      "file": "Arashiyama Bamboo Grove (Unsplash).jpg",
+      "author": "Erol Ahmed",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arashiyama_Bamboo_Grove_(Unsplash).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Arashiyama_Bamboo_Grove_%28Unsplash%29.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Arashiyama_Bamboo_Grove_%28Unsplash%29.jpg/3840px-Arashiyama_Bamboo_Grove_%28Unsplash%29.jpg",
+      "width": 5472,
+      "height": 3648,
+      "original_bytes": 9408950,
+      "commons_license": "CC0",
+      "commons_license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2560,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/arashiyama-bamboo-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 10344,
+          "sha256": "ada4cadfa1226af644b445e5ee22fc9e88e12230b472032af251deddac1fb8b4"
+        },
+        {
+          "file": "assets/japan-gallery/arashiyama-bamboo-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 27886,
+          "sha256": "2cb0e481cb56cc7ff2721e2a1794b532dd1ff521fa03213d62942d4b43b0f60e"
+        },
+        {
+          "file": "assets/japan-gallery/arashiyama-bamboo-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 75268,
+          "sha256": "49db4793450d6229efd44a4b70378aaee1a1cf78528cc18ff6b7f3233c4c1f00"
+        },
+        {
+          "file": "assets/japan-gallery/arashiyama-bamboo-2400.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 159178,
+          "sha256": "27af1937ae33758decc78fe3fab719e3881353b30cdc825288fc4fa10ae2540f"
+        }
+      ],
+      "src": "assets/japan-gallery/arashiyama-bamboo-960.webp",
+      "full": "assets/japan-gallery/arashiyama-bamboo-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "kobe-harbor",
+      "region": "kobe",
+      "title": "神户港的夜",
+      "place": "神户 · 港湾",
+      "season": "夜景 / 海面与灯光",
+      "file": "Port of Kobe at night.jpg",
+      "author": "Naturehead",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Port_of_Kobe_at_night.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Port_of_Kobe_at_night.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Port_of_Kobe_at_night.jpg",
+      "width": 3008,
+      "height": 2000,
+      "original_bytes": 1047781,
+      "commons_license": "CC BY-SA 3.0",
+      "commons_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_date": "2026-10-22",
+      "download_width": 3008,
+      "download_height": 2000,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/kobe-harbor-480.webp",
+          "width": 480,
+          "height": 319,
+          "bytes": 14384,
+          "sha256": "80885c6053007f4168ebc90afcaffcd368a80dbb91248ba9fd43960f6c69d73b"
+        },
+        {
+          "file": "assets/japan-gallery/kobe-harbor-960.webp",
+          "width": 960,
+          "height": 638,
+          "bytes": 40470,
+          "sha256": "466b1715e4b18977032d2967f59ddd07cb185e7c4b4b0ff869903e8a9dfcaef8"
+        },
+        {
+          "file": "assets/japan-gallery/kobe-harbor-1600.webp",
+          "width": 1600,
+          "height": 1064,
+          "bytes": 98440,
+          "sha256": "fe51721c303b774c5f7b682f063c73b53abda1586b38f8c4a8c4e32b4a589bde"
+        },
+        {
+          "file": "assets/japan-gallery/kobe-harbor-2400.webp",
+          "width": 2400,
+          "height": 1596,
+          "bytes": 156256,
+          "sha256": "b7d3baf508f2c023fc76d6736bbf18101878d19f03034d0f74f4bda2e3b46767"
+        }
+      ],
+      "src": "assets/japan-gallery/kobe-harbor-960.webp",
+      "full": "assets/japan-gallery/kobe-harbor-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "shinjuku-sakura",
+      "region": "tokyo",
+      "title": "新宿御苑的樱花",
+      "place": "东京 · 新宿御苑",
+      "season": "春季 / 樱花与庭园",
+      "file": "Shinjuku Gyoen National Garden - sakura 2.JPG",
+      "author": "Kakidai",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Shinjuku_Gyoen_National_Garden_-_sakura_2.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Shinjuku_Gyoen_National_Garden_-_sakura_2.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Shinjuku_Gyoen_National_Garden_-_sakura_2.JPG/3840px-Shinjuku_Gyoen_National_Garden_-_sakura_2.JPG",
+      "width": 5184,
+      "height": 3456,
+      "original_bytes": 24162295,
+      "commons_license": "CC BY-SA 3.0",
+      "commons_license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2560,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/shinjuku-sakura-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 67356,
+          "sha256": "89612c04795e6319cd92d9e80be93e3d72c7b871f5071747a04a35cde8d663a3"
+        },
+        {
+          "file": "assets/japan-gallery/shinjuku-sakura-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 279700,
+          "sha256": "37a507ede5f152b5f552e15d5aec4339edcb6e2e33805115ee7ee75c76c8fc41"
+        },
+        {
+          "file": "assets/japan-gallery/shinjuku-sakura-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 882224,
+          "sha256": "9b3adb3f432107768c2c16ac2d653ea72527938ed9e37cf74d2b57b61e974751"
+        },
+        {
+          "file": "assets/japan-gallery/shinjuku-sakura-2400.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 1937534,
+          "sha256": "e93aef723dafec6f501d444c17dc21cc18e88d23c398e46168ccc72400521f60"
+        }
+      ],
+      "src": "assets/japan-gallery/shinjuku-sakura-960.webp",
+      "full": "assets/japan-gallery/shinjuku-sakura-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "biei-fields",
+      "region": "hokkaido-summer",
+      "title": "美瑛的拼布丘陵",
+      "place": "北海道 · 美瑛",
+      "season": "夏季 / 彩色田野",
+      "file": "Biei colorful crop fields, Hokkaido; July 2017 (03).jpg",
+      "author": "雷太 / Raita Futo",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Biei_colorful_crop_fields,_Hokkaido;_July_2017_(03).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Biei_colorful_crop_fields%2C_Hokkaido%3B_July_2017_%2803%29.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Biei_colorful_crop_fields%2C_Hokkaido%3B_July_2017_%2803%29.jpg/3840px-Biei_colorful_crop_fields%2C_Hokkaido%3B_July_2017_%2803%29.jpg",
+      "width": 5388,
+      "height": 3592,
+      "original_bytes": 10703803,
+      "commons_license": "CC BY 2.0",
+      "commons_license_url": "https://creativecommons.org/licenses/by/2.0",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2560,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/biei-fields-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 30400,
+          "sha256": "a76cccdc800c339232b017331380b4795f2d27b24daf11ed78c0f8f5f3d4aff3"
+        },
+        {
+          "file": "assets/japan-gallery/biei-fields-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 121150,
+          "sha256": "d2f565b390fd584bd36b0435bfd79eeaa020e0791f2f05eda3ddd12fc4139404"
+        },
+        {
+          "file": "assets/japan-gallery/biei-fields-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 377390,
+          "sha256": "c777ab050e9cfbb6b851f906faf9acc0673a9b42a20d89ce363d9b401ba961d5"
+        },
+        {
+          "file": "assets/japan-gallery/biei-fields-2400.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 781286,
+          "sha256": "72f5cc5b70b27919ddf192e015f7826fc8d44b971aaa842b41e3bf8589952e67"
+        }
+      ],
+      "src": "assets/japan-gallery/biei-fields-960.webp",
+      "full": "assets/japan-gallery/biei-fields-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "blue-pond",
+      "region": "hokkaido-summer",
+      "title": "白金青池",
+      "place": "北海道 · 美瑛",
+      "season": "夏季 / 水色与白桦",
+      "file": "Shirogane-Blue-Pond summer.jpg",
+      "author": "MaedaAkihiko",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Shirogane-Blue-Pond_summer.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Shirogane-Blue-Pond_summer.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Shirogane-Blue-Pond_summer.jpg/3840px-Shirogane-Blue-Pond_summer.jpg",
+      "width": 5281,
+      "height": 3519,
+      "original_bytes": 11248066,
+      "commons_license": "CC BY-SA 4.0",
+      "commons_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2559,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/blue-pond-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 27908,
+          "sha256": "26cb6054f6924ae763160e0cafe056c4b10f82e44650d457d9593eabd644139a"
+        },
+        {
+          "file": "assets/japan-gallery/blue-pond-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 99938,
+          "sha256": "0f46922011fc07c728ef4b524767761045ff1de92cdb991ce6ad368c31271515"
+        },
+        {
+          "file": "assets/japan-gallery/blue-pond-1600.webp",
+          "width": 1600,
+          "height": 1066,
+          "bytes": 315524,
+          "sha256": "3070aa22ea3a9b9ed702261650187efe3ba8278c842a652cee7f9291f7651c97"
+        },
+        {
+          "file": "assets/japan-gallery/blue-pond-2400.webp",
+          "width": 2400,
+          "height": 1599,
+          "bytes": 695090,
+          "sha256": "4bdcf0e6d37332188a3f8bfe9d611c41ea2ffeee3f4664310fdedeca98e57283"
+        }
+      ],
+      "src": "assets/japan-gallery/blue-pond-960.webp",
+      "full": "assets/japan-gallery/blue-pond-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "cape-kamui-sea",
+      "region": "kamui",
+      "title": "积丹蓝",
+      "place": "北海道 · 神威岬",
+      "season": "夏季 / 海岸与礁石",
+      "file": "130823 Cape Kamui Shakotan Hokkaido Japan03s3.jpg",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:130823_Cape_Kamui_Shakotan_Hokkaido_Japan03s3.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/130823_Cape_Kamui_Shakotan_Hokkaido_Japan03s3.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/130823_Cape_Kamui_Shakotan_Hokkaido_Japan03s3.jpg/3840px-130823_Cape_Kamui_Shakotan_Hokkaido_Japan03s3.jpg",
+      "width": 4912,
+      "height": 3264,
+      "original_bytes": 12672131,
+      "commons_license": "CC BY 2.5",
+      "commons_license_url": "https://creativecommons.org/licenses/by/2.5",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2552,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/cape-kamui-sea-480.webp",
+          "width": 480,
+          "height": 319,
+          "bytes": 43434,
+          "sha256": "f69583f080a0507745bee4760e45b37803c265018821551eb458da4501ccbdb8"
+        },
+        {
+          "file": "assets/japan-gallery/cape-kamui-sea-960.webp",
+          "width": 960,
+          "height": 638,
+          "bytes": 185346,
+          "sha256": "d14ea711492545ef54c0a39489d913e1cca421e1189008784bc7a96e92c7059e"
+        },
+        {
+          "file": "assets/japan-gallery/cape-kamui-sea-1600.webp",
+          "width": 1600,
+          "height": 1063,
+          "bytes": 624150,
+          "sha256": "abe70350e3932767e5d87b048e944ccc77acf8f0a9e2fe98dd44634ad21b8547"
+        },
+        {
+          "file": "assets/japan-gallery/cape-kamui-sea-2400.webp",
+          "width": 2400,
+          "height": 1595,
+          "bytes": 1381528,
+          "sha256": "7b4aca5bb51d929c65176640f05c4b80146e842bb0f0ee437fa54a07f410cb0c"
+        }
+      ],
+      "src": "assets/japan-gallery/cape-kamui-sea-960.webp",
+      "full": "assets/japan-gallery/cape-kamui-sea-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "shiretoko-drift-ice",
+      "region": "hokkaido-winter",
+      "title": "知床的流冰海岸",
+      "place": "北海道 · 知床",
+      "season": "晚冬 / 鄂霍次克海",
+      "file": "Hokkaido-Drift Ice-xl.jpg",
+      "author": "kkawamura",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_source_page": "https://search.find47.jp/ja/i/nE5GZ",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hokkaido-Drift_Ice-xl.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Hokkaido-Drift_Ice-xl.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Hokkaido-Drift_Ice-xl.jpg/3840px-Hokkaido-Drift_Ice-xl.jpg",
+      "width": 5400,
+      "height": 3600,
+      "original_bytes": 5085990,
+      "commons_license": "CC BY 4.0",
+      "commons_license_url": "https://creativecommons.org/licenses/by/4.0",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2560,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/shiretoko-drift-ice-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 15388,
+          "sha256": "c3f9bbb56cf46ad9593cfc69bb6821afd7632c82ceadf94e4ccbeb6e3bf92d14"
+        },
+        {
+          "file": "assets/japan-gallery/shiretoko-drift-ice-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 45280,
+          "sha256": "a0763ef7a50f05c55b3de58343a7db88667fe9f1ace2aa304282c8d4189b7183"
+        },
+        {
+          "file": "assets/japan-gallery/shiretoko-drift-ice-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 142240,
+          "sha256": "f6abcb12002e33ec0039c3db8ac80548825c2bbc183728b0c2422dbc99607ad7"
+        },
+        {
+          "file": "assets/japan-gallery/shiretoko-drift-ice-2400.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 482530,
+          "sha256": "5605947cc789b98fdd728c658d6ff8241545b9a82662783ea0b793b6c31e9c61"
+        }
+      ],
+      "src": "assets/japan-gallery/shiretoko-drift-ice-960.webp",
+      "full": "assets/japan-gallery/shiretoko-drift-ice-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "biei-snow-dawn",
+      "region": "hokkaido-winter",
+      "title": "雪原醒来的时刻",
+      "place": "北海道 · 美瑛",
+      "season": "雪季 / 日出与远山",
+      "file": "Biei at Dawn (HOKKAIDO-JAPAN) (2373832004).jpg",
+      "author": "Chi King",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Biei_at_Dawn_(HOKKAIDO-JAPAN)_(2373832004).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Biei_at_Dawn_%28HOKKAIDO-JAPAN%29_%282373832004%29.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Biei_at_Dawn_%28HOKKAIDO-JAPAN%29_%282373832004%29.jpg/3840px-Biei_at_Dawn_%28HOKKAIDO-JAPAN%29_%282373832004%29.jpg",
+      "width": 4368,
+      "height": 2912,
+      "original_bytes": 988448,
+      "commons_license": "CC BY 2.0",
+      "commons_license_url": "https://creativecommons.org/licenses/by/2.0",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2560,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/biei-snow-dawn-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 20232,
+          "sha256": "cfafea910beb389fca91727acbf8c3bcb6048cfa776ed6f67d661e600cd86168"
+        },
+        {
+          "file": "assets/japan-gallery/biei-snow-dawn-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 64574,
+          "sha256": "6e89b540516c4bf50b1d5e37951b64f8dfb4ec52071c6f2c0e82fc846abcfe37"
+        },
+        {
+          "file": "assets/japan-gallery/biei-snow-dawn-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 188384,
+          "sha256": "c5122649804250128e3ca2c989763b9ed67232a88d32022b80e46da80f39c28b"
+        },
+        {
+          "file": "assets/japan-gallery/biei-snow-dawn-2400.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 362510,
+          "sha256": "d15a38a595b0b4b68fb4fe34b41cf8af961dfe62b9f88cb799eda29758a9f287"
+        }
+      ],
+      "src": "assets/japan-gallery/biei-snow-dawn-960.webp",
+      "full": "assets/japan-gallery/biei-snow-dawn-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "hakodate-night",
+      "region": "hakodate",
+      "title": "蓝调里的函馆雪城",
+      "place": "北海道 · 函馆",
+      "season": "冬季 / 暮色与灯火",
+      "file": "Hokkaido Hakodate night view xl.jpg",
+      "author": "洞内定晴",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "original_source_page": "https://search.find47.jp/ja/i/iLKeL",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hokkaido_Hakodate_night_view_xl.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Hokkaido_Hakodate_night_view_xl.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Hokkaido_Hakodate_night_view_xl.jpg/3840px-Hokkaido_Hakodate_night_view_xl.jpg",
+      "width": 4672,
+      "height": 3104,
+      "original_bytes": 16578035,
+      "commons_license": "CC BY 4.0",
+      "commons_license_url": "https://creativecommons.org/licenses/by/4.0",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2551,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/hakodate-night-480.webp",
+          "width": 480,
+          "height": 319,
+          "bytes": 31024,
+          "sha256": "136d0a0e7b9a5b0d66ef60fe8fe1667721b486a782281f921e52c86707cc75b4"
+        },
+        {
+          "file": "assets/japan-gallery/hakodate-night-960.webp",
+          "width": 960,
+          "height": 638,
+          "bytes": 121020,
+          "sha256": "d2fb8d7aca571053378b735195db19a588b42d2105284415c1c0f2715bb186f1"
+        },
+        {
+          "file": "assets/japan-gallery/hakodate-night-1600.webp",
+          "width": 1600,
+          "height": 1063,
+          "bytes": 409044,
+          "sha256": "9ae719f6b7955ab42a56289d5d51354f2a11e97eaabe0c4ce220d06bd867a300"
+        },
+        {
+          "file": "assets/japan-gallery/hakodate-night-2400.webp",
+          "width": 2400,
+          "height": 1594,
+          "bytes": 1105930,
+          "sha256": "0757053bb918dba18556ce18bdc724898bf1b1431146860a3fa00b7517707d69"
+        }
+      ],
+      "src": "assets/japan-gallery/hakodate-night-960.webp",
+      "full": "assets/japan-gallery/hakodate-night-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "tenryuji-garden",
+      "region": "kyoto",
+      "title": "天龙寺的秋色",
+      "place": "京都 · 天龙寺",
+      "season": "秋季 / 庭园与倒影",
+      "file": "Tenryuji Kyoto01n4500.jpg",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tenryuji_Kyoto01n4500.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Tenryuji_Kyoto01n4500.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Tenryuji_Kyoto01n4500.jpg/3840px-Tenryuji_Kyoto01n4500.jpg",
+      "width": 4500,
+      "height": 3000,
+      "original_bytes": 5631321,
+      "commons_license": "CC BY 2.5",
+      "commons_license_url": "https://creativecommons.org/licenses/by/2.5",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2560,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/tenryuji-garden-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 30358,
+          "sha256": "e3f8cade559fe26356505a97aa9c89b493a6180433f65cecd0c936df790ab0d3"
+        },
+        {
+          "file": "assets/japan-gallery/tenryuji-garden-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 115382,
+          "sha256": "8e35807d1bee40596a7e7674c8bf7715f904eb0dfd9d7a5550cd60eb056810bb"
+        },
+        {
+          "file": "assets/japan-gallery/tenryuji-garden-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 355386,
+          "sha256": "75d49f432cd41a4500cb7f60bfe87d77d8a96ca42af95cbc8afe2a9880b6c0d9"
+        },
+        {
+          "file": "assets/japan-gallery/tenryuji-garden-2400.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 707390,
+          "sha256": "3b17930dd340eb96f20d66a21f5441451f8f1c3ca2719b5833f8fa3b282b1c8f"
+        }
+      ],
+      "src": "assets/japan-gallery/tenryuji-garden-960.webp",
+      "full": "assets/japan-gallery/tenryuji-garden-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "kinkakuji-snow-garden",
+      "region": "kyoto",
+      "title": "金阁寺庭园的冬雪",
+      "place": "京都 · 鹿苑寺",
+      "season": "冬季 / 池塘与雪庭",
+      "file": "雪の金閣寺 Kinkakuji temple in snow (5360144069).jpg",
+      "author": "Takeshi Kuboki",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%E9%9B%AA%E3%81%AE%E9%87%91%E9%96%A3%E5%AF%BA_Kinkakuji_temple_in_snow_(5360144069).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/%E9%9B%AA%E3%81%AE%E9%87%91%E9%96%A3%E5%AF%BA_Kinkakuji_temple_in_snow_%285360144069%29.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/%E9%9B%AA%E3%81%AE%E9%87%91%E9%96%A3%E5%AF%BA_Kinkakuji_temple_in_snow_%285360144069%29.jpg/3840px-%E9%9B%AA%E3%81%AE%E9%87%91%E9%96%A3%E5%AF%BA_Kinkakuji_temple_in_snow_%285360144069%29.jpg",
+      "width": 4256,
+      "height": 2832,
+      "original_bytes": 7539347,
+      "commons_license": "CC BY 2.0",
+      "commons_license_url": "https://creativecommons.org/licenses/by/2.0",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2555,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/kinkakuji-snow-garden-480.webp",
+          "width": 480,
+          "height": 319,
+          "bytes": 29812,
+          "sha256": "295b5fc40bba05d2d4a4cc3dc422955358ea27f2eaeec30696c347c4e9ab7023"
+        },
+        {
+          "file": "assets/japan-gallery/kinkakuji-snow-garden-960.webp",
+          "width": 960,
+          "height": 639,
+          "bytes": 110842,
+          "sha256": "61f293da482368f3ec3dab263b77bd0724342a4203eeabbfef7ef0455197a299"
+        },
+        {
+          "file": "assets/japan-gallery/kinkakuji-snow-garden-1600.webp",
+          "width": 1600,
+          "height": 1065,
+          "bytes": 342806,
+          "sha256": "f2d50ac73968a7e6ba640ed07b2617262ce023c5b2a5f3d594ac51d50e522311"
+        },
+        {
+          "file": "assets/japan-gallery/kinkakuji-snow-garden-2400.webp",
+          "width": 2400,
+          "height": 1597,
+          "bytes": 705056,
+          "sha256": "2aabe4f570c54c2532db78596bdc9de92badc59092d3164a5686f77767b7c703"
+        }
+      ],
+      "src": "assets/japan-gallery/kinkakuji-snow-garden-960.webp",
+      "full": "assets/japan-gallery/kinkakuji-snow-garden-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "kobe-nunobiki",
+      "region": "kobe",
+      "title": "从山上望见神户",
+      "place": "神户 · 布引",
+      "season": "山海 / 城市与港湾",
+      "file": "Kobe city, view from Nunobiki. (22524851657).jpg",
+      "author": "harum.koh",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kobe_city,_view_from_Nunobiki._(22524851657).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Kobe_city%2C_view_from_Nunobiki._%2822524851657%29.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Kobe_city%2C_view_from_Nunobiki._%2822524851657%29.jpg/3840px-Kobe_city%2C_view_from_Nunobiki._%2822524851657%29.jpg",
+      "width": 4608,
+      "height": 3072,
+      "original_bytes": 3648367,
+      "commons_license": "CC BY-SA 2.0",
+      "commons_license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2560,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/kobe-nunobiki-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 26210,
+          "sha256": "2cd5b7829bae1addb36735ead42665464e1c4d0885ce484806fa4b439dbb76d8"
+        },
+        {
+          "file": "assets/japan-gallery/kobe-nunobiki-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 87398,
+          "sha256": "67271d15fa852c36c04a3c036250ab8ceb545da308b8cd57d089f251bd0e4428"
+        },
+        {
+          "file": "assets/japan-gallery/kobe-nunobiki-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 265200,
+          "sha256": "8d63ae4d40a92c7158ab5bcc29b934fb0e51d500283d009bbb62ee11853af10e"
+        },
+        {
+          "file": "assets/japan-gallery/kobe-nunobiki-2400.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 525238,
+          "sha256": "c212f6a72891df4bdb1f47746905150dc5a0d3dc9a8d78272e0e1dbd113652b2"
+        }
+      ],
+      "src": "assets/japan-gallery/kobe-nunobiki-960.webp",
+      "full": "assets/japan-gallery/kobe-nunobiki-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "tokyo-minato-night",
+      "region": "tokyo",
+      "title": "东京的蓝调夜色",
+      "place": "东京 · 港区",
+      "season": "夜景 / 城市天际线",
+      "file": "Minato City, Tokyo, Japan (Night).jpg",
+      "author": "David Kernan",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Minato_City,_Tokyo,_Japan_(Night).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Minato_City%2C_Tokyo%2C_Japan_%28Night%29.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Minato_City%2C_Tokyo%2C_Japan_%28Night%29.jpg/3840px-Minato_City%2C_Tokyo%2C_Japan_%28Night%29.jpg",
+      "width": 4622,
+      "height": 2600,
+      "original_bytes": 11114365,
+      "commons_license": "CC BY 4.0",
+      "commons_license_url": "https://creativecommons.org/licenses/by/4.0",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2160,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/tokyo-minato-night-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 14712,
+          "sha256": "c6336b0db7bae7d247631521a2c39741526183554fa1e2abb108cce5021f70ff"
+        },
+        {
+          "file": "assets/japan-gallery/tokyo-minato-night-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 51368,
+          "sha256": "074d461e19fa8c097a9f02969fb63e865a2beab7502c216aa0d72e17ce16bf95"
+        },
+        {
+          "file": "assets/japan-gallery/tokyo-minato-night-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 149498,
+          "sha256": "7522d77ed08e73742a8671fd7d47508fca4caac413cda44fbb2cd28facf5fb6e"
+        },
+        {
+          "file": "assets/japan-gallery/tokyo-minato-night-2400.webp",
+          "width": 2400,
+          "height": 1350,
+          "bytes": 410568,
+          "sha256": "a72269d8a1c1dff0f23d858f7d4616cb7c76298e9034a212587a221bc8f15496"
+        }
+      ],
+      "src": "assets/japan-gallery/tokyo-minato-night-960.webp",
+      "full": "assets/japan-gallery/tokyo-minato-night-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    },
+    {
+      "id": "rikugien-autumn",
+      "region": "tokyo",
+      "title": "六义园的秋色",
+      "place": "东京 · 六义园",
+      "season": "秋季 / 林间色彩",
+      "file": "Autumnal Colour at Rikugi-en, Tokyo.jpg",
+      "author": "Ethan Doyle White",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Autumnal_Colour_at_Rikugi-en,_Tokyo.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Autumnal_Colour_at_Rikugi-en%2C_Tokyo.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Autumnal_Colour_at_Rikugi-en%2C_Tokyo.jpg/3840px-Autumnal_Colour_at_Rikugi-en%2C_Tokyo.jpg",
+      "width": 4896,
+      "height": 3264,
+      "original_bytes": 20597621,
+      "commons_license": "CC BY-SA 4.0",
+      "commons_license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_date": "2026-10-22",
+      "download_width": 3840,
+      "download_height": 2560,
+      "outputs": [
+        {
+          "file": "assets/japan-gallery/rikugien-autumn-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 63436,
+          "sha256": "c972bd51bad458658654793794ad7e02fa879cbf88707a681cf88c67497afccc"
+        },
+        {
+          "file": "assets/japan-gallery/rikugien-autumn-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 267014,
+          "sha256": "5e4085a8e00346d46b91cf00139a5542af870b8c162fb21d8ebdb63d9c3c05a2"
+        },
+        {
+          "file": "assets/japan-gallery/rikugien-autumn-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 847908,
+          "sha256": "72e5d16059b5cf527df203e76f1af9baba732fb52dc51efc7310ab3e61b2a185"
+        },
+        {
+          "file": "assets/japan-gallery/rikugien-autumn-2400.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 1825812,
+          "sha256": "75d397dc674308a3d8c93db7d9fda8503ccc20db91524270c97bf2a03060cd66"
+        }
+      ],
+      "src": "assets/japan-gallery/rikugien-autumn-960.webp",
+      "full": "assets/japan-gallery/rikugien-autumn-2400.webp",
+      "changes": "Proportionally resized and WebP encoded; no upscaling, watermark removal or generative editing. Display thumbnails may be cropped with CSS; the full viewer shows the complete image.",
+      "watermark_review": "No visible watermark or signature in reviewed source image."
+    }
+  ]
+}

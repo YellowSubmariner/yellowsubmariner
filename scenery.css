@@ -206,45 +206,5 @@ main#home{position:relative;z-index:2;padding-top:24px}
 [data-theme="dark"] .learning-section .cms-note-copy strong,[data-theme="dark"] .cms-category-learning .cms-category-heading{color:var(--scene-ink)}
 [data-theme="dark"] .cms-empty p{color:#adc2c7}
 
-/* Makeine: blue ribbons, paper colours and three character portraits. */
-.makeine-bow{display:inline-block;position:relative;flex:none;width:21px;height:13px;vertical-align:middle;background:linear-gradient(90deg,transparent 43%,#3676b8 43% 57%,transparent 57%);color:#5594d0}
-.makeine-bow:before,.makeine-bow:after{content:"";position:absolute;top:0;width:9px;height:13px;background:currentColor;border-radius:2px}
-.makeine-bow:before{left:0;clip-path:polygon(0 0,100% 32%,100% 68%,0 100%)}
-.makeine-bow:after{right:0;clip-path:polygon(100% 0,0 32%,0 68%,100% 100%)}
-.makeine-hero-tag{display:inline-flex;align-items:center;gap:10px;padding:8px 11px;border:1px solid #c5e5f16b;border-radius:4px;background:#203e586b;backdrop-filter:blur(8px);color:#f3f8ff;font-size:9px;letter-spacing:.4px;transition:background .2s}
-.makeine-hero-tag:hover{background:#284b6dba}
-.makeine-hero-tag .makeine-bow{width:17px;height:11px;color:#a5d1fc}
-.makeine-hero-tag .makeine-bow:before,.makeine-hero-tag .makeine-bow:after{width:7px;height:11px}
-.makeine-feature{margin-top:29px;padding:23px 23px 20px;border:1px solid #8bb6cc36;border-radius:11px;scroll-margin-top:108px;background:linear-gradient(115deg,#f0f7fb,#f8f5ed);position:relative;overflow:hidden}
-.makeine-heading{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-bottom:19px}
-.makeine-heading .eyebrow{display:flex;align-items:center;gap:10px;font-size:7px;letter-spacing:1.5px;color:#7b96aa}
-.makeine-heading h2{font-family:var(--serif);font-size:25px;font-weight:500;letter-spacing:.3px;line-height:1.5;margin-top:7px;color:#2d4d68}
-.makeine-heading h2>span{color:#5793c6}
-.makeine-official{color:#68869c;font-size:10px;white-space:nowrap;border-bottom:1px solid #aac8d8;padding-bottom:5px}
-.makeine-official:hover{color:#286795}
-.makeine-cast{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
-.makeine-person{min-width:0;margin:0;border-radius:8px;overflow:hidden;background:#f9fcfe;border:1px solid #b0c9d23d;box-shadow:0 3px 12px #223e5405}
-.makeine-portrait{height:219px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 68% 35%,#ffffffcf,transparent 64%),repeating-linear-gradient(0deg,transparent 0 30px,#faffff30 30px 31px),linear-gradient(135deg,#c8dfef,#edf5fb)}
-.makeine-lemon .makeine-portrait{background:radial-gradient(ellipse at 68% 35%,#ffffffcf,transparent 64%),repeating-linear-gradient(0deg,transparent 0 30px,#ffffed45 30px 31px),linear-gradient(135deg,#f1e2ac,#fcf6df)}
-.makeine-chika .makeine-portrait{background:radial-gradient(ellipse at 68% 35%,#ffffffcf,transparent 64%),repeating-linear-gradient(0deg,transparent 0 30px,#fffaff45 30px 31px),linear-gradient(135deg,#e2cfdb,#f4ecf0)}
-.makeine-portrait:after{content:"";position:absolute;width:165px;height:165px;border:1px solid #fff8;border-radius:50%;left:calc(50% - 82px);top:24px;pointer-events:none}
-.makeine-initial{position:absolute;font:italic 180px/.9 Georgia,serif;left:10px;bottom:-8px;color:#ffffff80;pointer-events:none}
-.makeine-portrait img{position:absolute;z-index:1;left:50%;top:8px;transform:translateX(-50%);width:auto;height:390px;max-width:none;object-fit:contain;transition:transform .35s}
-.makeine-person:hover img{transform:translateX(-50%) translateY(-4px)}
-.makeine-person figcaption{position:relative;padding:13px 15px 14px;border-top:1px solid #b0c9d22b;color:#315369}
-.makeine-person figcaption>span{display:block;font-size:6px;letter-spacing:1.4px;color:#91a5b3}
-.makeine-person figcaption>strong{display:block;font-family:var(--serif);font-size:15px;font-weight:500;line-height:1.7;margin-top:4px}
-.makeine-person figcaption>.makeine-bow{position:absolute;right:14px;bottom:21px;opacity:.8}
-[data-theme="dark"] .makeine-feature{background:linear-gradient(115deg,#203f53,#2d454d);border-color:#7fa0b440}
-[data-theme="dark"] .makeine-heading h2,[data-theme="dark"] .makeine-person figcaption{color:#d9e9f3}
-[data-theme="dark"] .makeine-person{background:#2b4b5e;border-color:#acc6d335}
-[data-theme="dark"] .makeine-heading .eyebrow,[data-theme="dark"] .makeine-official{color:#a6bfce}
-[data-theme="dark"] .makeine-person figcaption>span{color:#b1c7d3}
-@media(min-width:1600px){.makeine-portrait{height:246px}.makeine-portrait img{height:435px}}
-@media(min-width:981px) and (max-width:1250px){.makeine-portrait{height:190px}.makeine-portrait img{height:340px}.makeine-feature{padding:20px}.makeine-person figcaption{padding:12px}.makeine-person figcaption>strong{font-size:14px}.makeine-person figcaption>.makeine-bow{right:11px;width:17px;opacity:.6}}
-@media(max-width:700px){.makeine-feature{margin-top:20px;padding:17px 13px 13px;scroll-margin-top:90px}.makeine-heading{gap:10px;margin-bottom:15px}.makeine-heading .eyebrow{font-size:5px;letter-spacing:1px;gap:7px}.makeine-heading h2{font-size:20px;margin-top:5px}.makeine-official{font-size:8px;padding-bottom:4px}.makeine-cast{gap:7px}.makeine-portrait{height:155px}.makeine-portrait img{top:7px;height:270px}.makeine-initial{font-size:125px;left:0}.makeine-portrait:after{width:112px;height:112px;left:calc(50% - 56px);top:20px}.makeine-person figcaption{padding:10px 8px 12px}.makeine-person figcaption>span{font-size:5px;letter-spacing:.6px}.makeine-person figcaption>strong{font-size:11px;margin-top:4px;white-space:nowrap}.makeine-person figcaption>.makeine-bow{display:none}.makeine-hero-tag{font-size:7px;gap:6px;padding:6px 8px}.makeine-hero-tag .makeine-bow{width:15px;height:10px}.makeine-hero-tag .makeine-bow:before,.makeine-hero-tag .makeine-bow:after{width:6px;height:10px}.hero-top{inset:18px 15px auto}}
-@media(max-width:380px){.makeine-feature{padding:15px 10px 10px}.makeine-heading h2{font-size:17px}.makeine-heading .eyebrow{font-size:4px}.makeine-official{font-size:7px}.makeine-portrait{height:140px}.makeine-portrait img{height:245px}.makeine-person figcaption{padding:9px 6px}.makeine-person figcaption>strong{font-size:10px}.makeine-hero-tag{font-size:6px;gap:4px}}
-@media(prefers-reduced-motion:reduce){.makeine-portrait img,.makeine-hero-tag{transition:none}.makeine-person:hover img{transform:translateX(-50%)}}
-
 /* The new portrait is a single high-resolution figure, with no composite crop. */
 .character-rail-right img{left:50%;right:auto;transform:translateX(-50%);width:auto;height:100%;max-width:none;clip-path:none;object-fit:contain;object-position:center bottom;image-rendering:auto}

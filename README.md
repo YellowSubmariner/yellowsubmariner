@@ -45,3 +45,9 @@ CMS 服务端必须允许精确来源 `https://yellowsubmariner.github.io` 读�
 `japan-gallery-data.js` 保存画廊公开数据，`japan-gallery.js` 提供地点筛选、高清查看、左右键切图与焦点恢复，`japan-gallery.css` 提供桌面、手机与暗色布局。照片存于 `assets/japan-gallery/`，每张提供 480、960、1600、2400 像素 WebP，不放大原图；卡片使用 `srcset`、动态 `sizes`、延迟加载及固定尺寸，高清图仅在打开时加载。所有来源照片均核查完整预览，未见可见水印，没有去除水印。
 
 可见署名与许可位于 `japan-photo-credits.html` 和放大浏览的底部；逐张来源、原生尺寸、许可、改动与输出文件校验值见 `assets/japan-gallery/sources.json`。照片来自 Wikimedia Commons / FIND/47，使用各自 CC0、CC BY 或 CC BY-SA 许可。此部分不向 CMS 写入数据，也不涉及私有朋友圈素材。
+
+## 首页自我介绍与风景拾集
+
+首页使用神威岬实景封面及陈康的简短自我介绍，只展示已授权的学校、学院、专业和兴趣。原首页三张静态风景卡改为10张可横向浏览的摄影选辑，来源复用现有18张图库；无自动轮播，支持触摸、左右按钮、高清灯箱和键盘返回。首页灯箱与旅程筛选分别维护序列，旅程原18张图片保持完整。醒目的败犬入口及三人专属栏目已移除，通用 ACG 放映室仍保留作品收藏。
+
+新增 `home-intro.css`、`home-photo-strip.css`、`home-photo-strip.js`；来源选用清单见 `assets/home-photo-selection.json`（Sites 位于 public/ 下）。首页封面采用960/1600/2400px响应式图片与优先加载，照片带使用480/960/1600px响应式图片和延迟加载。页面没有导入私人素材或更改后台与访问权限。

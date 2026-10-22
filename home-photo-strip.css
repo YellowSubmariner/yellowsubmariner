@@ -1,0 +1,35 @@
+/* A quiet, manually browsable selection from the existing Japan gallery. */
+.home-photo-strip{min-width:0;margin:7px 0 0;padding:0 0 25px;border-bottom:1px solid var(--scene-line)}
+.home-photo-header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 15px}
+.home-photo-heading{display:flex;align-items:baseline;gap:12px;min-width:0}
+.home-photo-heading h2{margin:0;font:500 23px/1.4 var(--serif);letter-spacing:1px;color:var(--scene-ink)}
+.home-photo-count{white-space:nowrap;font:400 10px/1.5 var(--sans);color:var(--scene-muted);letter-spacing:.5px}
+.home-photo-actions{display:flex;align-items:center;gap:7px;flex-shrink:0}
+.home-photo-all{display:inline-flex;align-items:center;gap:12px;margin-right:11px;color:var(--scene-ink);font:400 11px/1.5 var(--sans);text-decoration:none}
+.home-photo-all:hover{text-decoration:underline;text-underline-offset:5px}
+.home-photo-arrow{display:grid;place-items:center;width:34px;height:34px;padding:0;border:1px solid var(--scene-line);border-radius:50%;background:rgba(255,255,255,.5);color:var(--scene-ink);font:400 19px/1 var(--sans);cursor:pointer;transition:background .2s,border-color .2s,opacity .2s}
+.home-photo-arrow:hover:not(:disabled){background:#efe5c9;border-color:#c8b47a}
+.home-photo-arrow:disabled{opacity:.3;cursor:default}
+.home-photo-track{display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:0;scrollbar-width:thin;scrollbar-color:#a6b9b8 transparent;list-style:none;padding:4px 0 14px;margin:0;min-width:0}
+.home-photo-track::-webkit-scrollbar{height:4px}
+.home-photo-track::-webkit-scrollbar-thumb{background:#a6b9b8;border-radius:4px}
+.home-photo-track::-webkit-scrollbar-track{background:transparent}
+.home-photo-item{flex:0 0 33%;min-width:0;margin:0;scroll-snap-align:start}
+.home-photo-item:nth-child(3n+1){flex-basis:39%}
+.home-photo-item:nth-child(3n+2){flex-basis:28%}
+.home-photo-card{position:relative;display:block;width:100%;height:clamp(170px,17.2vw,224px);overflow:hidden;margin:0;padding:0;border:0;border-radius:9px;background:#a8bec3;text-align:left;color:#fff;cursor:zoom-in;isolation:isolate}
+.home-photo-card:after{content:"";position:absolute;z-index:1;inset:40% 0 0;pointer-events:none;background:linear-gradient(transparent,rgba(13,32,40,.64))}
+.home-photo-card img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .55s ease}
+.home-photo-card:hover img{transform:scale(1.035)}
+.home-photo-caption{position:absolute;z-index:2;left:17px;right:16px;bottom:16px;display:flex;flex-direction:column;gap:5px;text-shadow:0 1px 8px rgba(0,0,0,.2)}
+.home-photo-caption small{font:400 9px/1.4 var(--sans);color:rgba(255,255,255,.85);letter-spacing:1px}
+.home-photo-caption strong{font:500 18px/1.45 var(--serif);letter-spacing:.7px;color:#fff}
+.home-photo-card:focus-visible,.home-photo-arrow:focus-visible,.home-photo-all:focus-visible{outline:3px solid #c29a4a;outline-offset:3px}
+[data-theme="dark"] .home-photo-arrow{background:#294752;border-color:var(--scene-line)}
+[data-theme="dark"] .home-photo-arrow:hover:not(:disabled){background:#465949;border-color:#aa9b6b}
+[data-theme="dark"] .home-photo-track{scrollbar-color:#66858c transparent}
+[data-theme="dark"] .home-photo-track::-webkit-scrollbar-thumb{background:#66858c}
+@media(max-width:980px){.home-photo-item{flex-basis:39%}.home-photo-item:nth-child(3n+1){flex-basis:44%}.home-photo-item:nth-child(3n+2){flex-basis:34%}.home-photo-card{height:190px}}
+@media(max-width:700px){.home-photo-strip{padding-bottom:18px;margin-top:6px}.home-photo-header{gap:9px;margin-bottom:12px}.home-photo-heading{gap:8px}.home-photo-heading h2{font-size:20px}.home-photo-count{font-size:9px}.home-photo-all{font-size:10px;gap:6px;margin-right:5px}.home-photo-actions{gap:5px}.home-photo-arrow{width:32px;height:32px}.home-photo-track{gap:11px;padding-bottom:12px}.home-photo-item,.home-photo-item:nth-child(3n+1),.home-photo-item:nth-child(3n+2){flex-basis:83%}.home-photo-card{height:210px;border-radius:8px}.home-photo-caption{left:16px;bottom:16px}.home-photo-caption strong{font-size:19px}}
+@media(max-width:390px){.home-photo-header{flex-wrap:wrap;row-gap:8px}.home-photo-heading{flex:1 0 auto}.home-photo-heading h2{font-size:19px}.home-photo-all{margin-right:4px;gap:4px}.home-photo-arrow{width:30px;height:30px}.home-photo-card{height:184px}.home-photo-caption strong{font-size:17px}.home-photo-caption small{font-size:8px}}
+@media(prefers-reduced-motion:reduce){.home-photo-card img,.home-photo-arrow{transition:none}.home-photo-card:hover img{transform:none}.home-photo-track{scroll-behavior:auto}}

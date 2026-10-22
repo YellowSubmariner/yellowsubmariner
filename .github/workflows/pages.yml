@@ -24,7 +24,7 @@ jobs:
         shell: bash
         run: |
           mkdir -p _site
-          cp index.html app.js styles.css scenery.css japan-gallery.css japan-gallery.js japan-gallery-data.js japan-photo-credits.html .nojekyll _site/
+          cp index.html app.js styles.css scenery.css home-intro.css home-photo-strip.css home-photo-strip.js japan-gallery.css japan-gallery.js japan-gallery-data.js japan-photo-credits.html .nojekyll _site/
           cp -R assets cms _site/
       - name: Upload public website
         uses: actions/upload-pages-artifact@v4

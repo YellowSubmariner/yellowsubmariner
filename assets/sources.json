@@ -179,6 +179,13 @@
       "attribution_page": "../japan-photo-credits.html",
       "manifest": "japan-gallery/sources.json",
       "purpose": "Licensed Japan landscape inspiration photography, not personal travel records."
+    },
+    "home_scenery": {
+      "count": 10,
+      "hero": "japan-gallery/cape-kamui-sea-1600.webp",
+      "manifest": "home-photo-selection.json",
+      "attribution_page": "../japan-photo-credits.html",
+      "purpose": "旅行与摄影灵感收藏；不代表站主拍摄或已经到访。"
     }
   }
 }

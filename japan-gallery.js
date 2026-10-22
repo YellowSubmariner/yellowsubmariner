@@ -10,8 +10,11 @@
   const count = section.querySelector('#japan-gallery-count');
   const byId = new Map(photos.map(photo => [String(photo.id), photo]));
   if (!cards.length) return;
+  const homeCards = Array.from(document.querySelectorAll('[data-home-photo-id]'))
+    .filter(card => byId.has(card.dataset.homePhotoId));
 
   let visibleCards = [];
+  let dialogCards = [];
   let currentIndex = 0;
   let opener = null;
   let imageRequest = 0;
@@ -90,9 +93,10 @@
   }
 
   function showPhoto(index) {
-    if (!visibleCards.length) return;
-    currentIndex = (index + visibleCards.length) % visibleCards.length;
-    const photo = byId.get(visibleCards[currentIndex].dataset.japanId);
+    if (!dialogCards.length) return;
+    currentIndex = (index + dialogCards.length) % dialogCards.length;
+    const card = dialogCards[currentIndex];
+    const photo = byId.get(card.dataset.japanId || card.dataset.homePhotoId);
     const request = ++imageRequest;
     title.textContent = photo.title || '';
     place.textContent = photo.place || '';
@@ -102,9 +106,9 @@
     license.textContent = photo.license || '';
     setExternalLink(license, photo.license_url);
     setExternalLink(source, photo.source_page);
-    position.textContent = `${String(currentIndex + 1).padStart(2, '0')} / ${String(visibleCards.length).padStart(2, '0')}`;
-    previousButton.disabled = visibleCards.length < 2;
-    nextButton.disabled = visibleCards.length < 2;
+    position.textContent = `${String(currentIndex + 1).padStart(2, '0')} / ${String(dialogCards.length).padStart(2, '0')}`;
+    previousButton.disabled = dialogCards.length < 2;
+    nextButton.disabled = dialogCards.length < 2;
     image.alt = [photo.place, photo.title].filter(Boolean).join(' · ');
     image.width = Number(photo.width) || 2400;
     image.height = Number(photo.height) || 1600;
@@ -132,9 +136,10 @@
     image.src = photo.full || photo.src;
   }
 
-  function openPhoto(card) {
-    const index = visibleCards.indexOf(card);
+  function openPhoto(card, sequence) {
+    const index = sequence.indexOf(card);
     if (index < 0 || typeof dialog.showModal !== 'function') return;
+    dialogCards = sequence.slice();
     opener = card;
     showPhoto(index);
     if (!dialog.open) dialog.showModal();
@@ -145,7 +150,13 @@
   cards.forEach(card => {
     card.type = 'button';
     card.setAttribute('aria-haspopup', 'dialog');
-    card.addEventListener('click', () => openPhoto(card));
+    card.addEventListener('click', () => openPhoto(card, visibleCards));
+  });
+
+  homeCards.forEach(card => {
+    card.type = 'button';
+    card.setAttribute('aria-haspopup', 'dialog');
+    card.addEventListener('click', () => openPhoto(card, homeCards));
   });
 
   filters.forEach(button => {
@@ -176,6 +187,7 @@
     image.onerror = null;
     const target = opener;
     opener = null;
+    dialogCards = [];
     if (target?.isConnected && !target.hidden) target.focus({ preventScroll: true });
   });
 

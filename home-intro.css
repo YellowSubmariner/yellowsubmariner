@@ -1,0 +1,22 @@
+/* A personal introduction framed by the sea, without a promotional headline. */
+.hero.intro-hero{height:460px;isolation:isolate;border-radius:14px;background:#3e6777}
+.intro-hero .hero-image{height:100%;object-position:60% 52%}
+.intro-hero .hero-shade{background:linear-gradient(90deg,rgba(9,34,44,.83) 0%,rgba(9,34,44,.68) 34%,rgba(9,34,44,.2) 68%,rgba(9,34,44,.03) 100%),linear-gradient(0deg,rgba(12,37,46,.3),transparent 45%)}
+.intro-hero .hero-top{inset:28px 34px auto}
+.intro-hero .glass-label{font-size:10px;letter-spacing:1px;padding:8px 12px;background:rgba(15,43,53,.15)}
+.intro-hero .hero-copy{left:38px;right:38px;top:112px;width:auto;max-width:465px;transform:none}
+.intro-hero .hero-copy .eyebrow{font-size:9px;letter-spacing:2.2px;margin-bottom:17px;color:#d5e8e5}
+.intro-hero h1{font-size:38px;line-height:1.45;letter-spacing:.5px;font-weight:500;max-width:none;text-wrap:balance}
+.intro-hero .hero-description{font-size:14px;line-height:1.95;letter-spacing:.2px;margin-top:18px;max-width:430px;color:#f6faf6;text-wrap:pretty}
+.intro-hero .hero-description p+p{margin-top:8px}
+.intro-hero .intro-actions{display:flex;align-items:center;gap:25px;margin-top:23px}
+.intro-hero .hero-button{margin:0;gap:29px;padding:12px 16px;font-size:11px;min-height:42px;box-shadow:0 4px 18px #0b243329}
+.intro-gallery-link{display:inline-flex;align-items:center;gap:12px;font-size:11px;color:#fff;padding:12px 0;min-height:42px;border-bottom:1px solid #ffffff50}
+.intro-gallery-link:hover{border-color:#fff}
+.intro-photo-caption{position:absolute;right:24px;bottom:19px;color:#fff;font-size:9px;letter-spacing:.6px;text-shadow:0 1px 7px #142f46;background:#153e4959;border:1px solid #ffffff30;border-radius:20px;padding:6px 11px;backdrop-filter:blur(4px)}
+.intro-photo-caption:hover{background:#153e498c}
+.intro-hero~.ticker{padding-top:19px;padding-bottom:19px}
+@media(min-width:1600px){.hero.intro-hero{height:475px}.intro-hero .hero-copy{top:116px;left:42px;max-width:490px}.intro-hero h1{font-size:40px}.intro-hero .hero-description{font-size:15px}}
+@media(min-width:701px) and (max-width:1100px){.intro-hero .hero-copy{left:28px;right:25px;max-width:430px}.intro-hero h1{font-size:34px}.intro-hero .hero-top{left:27px}.intro-hero .hero-description{font-size:13px;max-width:390px}}
+@media(max-width:700px){.hero.intro-hero{height:478px;border-radius:10px}.intro-hero .hero-image{object-position:68% center}.intro-hero .hero-shade{background:linear-gradient(0deg,rgba(9,33,43,.89),rgba(9,33,43,.67) 48%,rgba(9,33,43,.13) 100%)}.intro-hero .hero-top{inset:22px 22px auto}.intro-hero .glass-label{font-size:9px;padding:7px 10px}.intro-hero .hero-copy{top:auto;bottom:65px;left:23px;right:23px;max-width:none}.intro-hero .hero-copy .eyebrow{font-size:8px;letter-spacing:1.6px;margin-bottom:12px}.intro-hero h1{font-size:29px;line-height:1.5;letter-spacing:0}.intro-hero .hero-description{font-size:12px;line-height:1.9;margin-top:14px;max-width:400px}.intro-hero .hero-description p+p{margin-top:7px}.intro-hero .intro-actions{gap:22px;margin-top:20px}.intro-hero .hero-button{font-size:10px;padding:12px 14px;gap:24px}.intro-gallery-link{font-size:10px;gap:10px}.intro-photo-caption{right:18px;bottom:17px;font-size:8px;padding:5px 9px}.intro-hero~.ticker{padding:16px 0}}
+@media(max-width:360px){.hero.intro-hero{height:480px}.intro-hero .hero-copy{left:19px;right:19px;bottom:62px}.intro-hero h1{font-size:26px}.intro-hero .hero-description{font-size:11px}.intro-hero .intro-actions{gap:17px}.intro-hero .hero-button{gap:15px}.intro-hero .hero-top{left:19px}.intro-hero .hero-copy .eyebrow{font-size:7px}}

@@ -33,7 +33,7 @@ window.JapanSceneryPhotos = [
     "id": "biei-snow-tree",
     "region": "hokkaido-winter",
     "title": "雪原上的一棵树",
-    "place": "北海道 · 美瑛",
+    "place": "北海道",
     "season": "冬季 / 雪原与常青树",
     "author": "Charlie_or_Y-N",
     "license": "CC BY 4.0",

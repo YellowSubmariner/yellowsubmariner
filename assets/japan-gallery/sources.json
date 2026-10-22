@@ -118,7 +118,7 @@
       "id": "biei-snow-tree",
       "region": "hokkaido-winter",
       "title": "雪原上的一棵树",
-      "place": "北海道 · 美瑛",
+      "place": "北海道",
       "season": "冬季 / 雪原与常青树",
       "source_page": "https://search.find47.jp/ja/i/BRyYR",
       "original_url": "https://find47.jp/uploads/image_file/content/000/003/243/xl.jpg",
@@ -128,6 +128,7 @@
       "license": "CC BY 4.0",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "verified_date": "2026-10-22",
+      "location_evidence": "The FIND/47 source explicitly identifies Hokkaido. No narrower municipality is asserted on the public website.",
       "download_width": 6000,
       "download_height": 4000,
       "outputs": [
